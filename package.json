@@ -12,7 +12,9 @@
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
     "angular-text-input-autocomplete": "^0.5.0",
+    "ngx-tribute": "^1.5.1",
     "rxjs": "~7.4.0",
+    "tributejs": "^3.3.5",
     "tslib": "~2.3.0",
     "zone.js": "~0.11.4"
   },
