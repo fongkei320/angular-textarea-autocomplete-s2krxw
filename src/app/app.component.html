@@ -1,0 +1,18 @@
+<h3>Textarea Autocomplete Example :)</h3>
+
+<mwl-text-input-autocomplete-container>
+  <textarea
+    placeholder="Type ctrl+ shift + '?'  or '#' to search..."
+    class="form-control"
+    rows="5"
+    cols="40"
+    [(ngModel)]="formControlValue"
+    mwlTextInputAutocomplete
+    [findChoices]="findChoices"
+    [getChoiceLabel]="getChoiceLabel"
+    [menuComponent]="menuComponent"
+    [triggerCharacter]="trig"
+    [keyboardShortcut]="trigFunc"
+  >
+  </textarea>
+</mwl-text-input-autocomplete-container>
